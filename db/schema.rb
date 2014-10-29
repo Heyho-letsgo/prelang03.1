@@ -24,4 +24,12 @@ ActiveRecord::Schema.define(version: 20141029171830) do
     t.string   "civilite"
   end
 
+  create_table "proprietaires", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "prenom"
+    t.string   "civilite"
+  end
+
 end
