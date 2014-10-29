@@ -69,6 +69,6 @@ class AcquereursController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def acquereur_params
-      params.require(:acquereur).permit(:name, :prenom)
+      params.require(:acquereur).permit(:name, :prenom, :civilite)
     end
 end

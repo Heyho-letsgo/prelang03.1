@@ -5,7 +5,10 @@
 
 <div class="fieldset">
   <dl>
-      <dt class="label label-default"><%= model_class.human_attribute_name(:name) %></dt>
+
+    <dt class="label label-default"><%= model_class.human_attribute_name(:civilite) %></dt>
+    <dd><pre class="prettyprint"><%= @acquereur.civilite %></pre></dd>
+    <dt class="label label-default"><%= model_class.human_attribute_name(:name) %></dt>
       <dd><pre class="prettyprint"><%= @acquereur.name %></pre></dd>
       <dt class="label label-default"><%= model_class.human_attribute_name(:prenom) %></dt>
       <dd><pre class="prettyprint"><%= @acquereur.prenom %></pre></dd>

@@ -1,4 +1,13 @@
 <%= form_for @acquereur, :html => { :class => 'form-horizontal form-model' } do |f| %>
+    <div class="form-group">
+      <%= f.label :civilite, :class => 'control-label col-md-2' %>
+      <div class="col-md-10">
+        <%= f.text_field :civilite, :class => 'text-field form-control' %>
+      </div>
+    </div>
+
+
+
   <div class="form-group">
     <%= f.label :name, :class => 'control-label col-md-2' %>
     <div class="col-md-10">
